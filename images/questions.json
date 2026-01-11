@@ -1,0 +1,21 @@
+[
+  {
+    "type": "mcq",
+    "title": "multiple choice",
+    "text": "anser multiple choice",
+    "image": null,
+    "options": [
+      "a",
+      "b"
+    ],
+    "correct": "B"
+  },
+  {
+    "type": "tf",
+    "title": "true false",
+    "text": "choose true false",
+    "image": null,
+    "options": [],
+    "correct": "False"
+  }
+]
