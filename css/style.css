@@ -88,9 +88,9 @@ section{
 span{
     color: var(--support-color);
 }
-.btn a{
-    margin: 2rem;
-    padding: 1rem 2rem;
+.btn a,.btn{
+     margin: 1rem;
+   /* padding: 1rem 2rem; */
     display: inline-block;
     justify-content: center;
     text-align: center;
@@ -241,4 +241,28 @@ span{
     background-color: var(--support-color);
     font-size: 1.5rem;
     border-radius: 50%;
+}
+.contact-info {
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+.contact-info .gmail{
+    font-size: 2rem;
+}
+form{
+    margin-top: 1rem;
+    padding: 0.8rem ;    
+    border-radius: 1%;
+    box-shadow: 0 0 0.5rem var(--support-color);
+}
+form .sender-gmail,.sender-subject,.sender-message{
+   margin: 0.7rem;
+   background: var(--bg-color);
+   color: var(--support-color);
+   min-width: 40%;
+   font-size: 1.3rem;
+   transition: 0.3s ease-in;
+}
+form .sender-gmail:active,.sender-subject:active,.sender-message:active{
+    transform: scale(1.03);   
 }
